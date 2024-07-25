@@ -9,7 +9,7 @@
 <body>
 
 <% request.setCharacterEncoding("UTF-8"); %>
-<p>こんにちは、<%= request.getParameter("user")さん！ %></p>
+<p>こんにちは、<%= request.getParameter("user")%>さん！</p>
 
 </body>
 </html>
